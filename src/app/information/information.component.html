@@ -1,0 +1,20 @@
+<!-- Introduction  -->
+<h2> Details about: 
+    <span style="font-weight:bold;" class="md-body-2">
+        {{ temp.animal }}
+    </span>
+</h2>
+
+<!-- Display Details -->
+<div *ngFor="let detail of temp.details | keyvalue">
+    <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: medium;">
+        {{ detail.key }}:  {{ detail.value }}
+
+        <p style="font-size:xx-small"></p>
+
+    </span>
+</div>
+
+<!-- Back Button -->
+<a routerLink="/"><button mat-raised-button > Back</button></a>

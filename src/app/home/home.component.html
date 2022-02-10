@@ -1,0 +1,20 @@
+<!-- Introduction -->
+<h2>
+    Welcome to Animal Detail Dectector App
+</h2>
+
+<!-- Instructions -->
+<h4> 
+    Click on the animal that you want to know about  
+</h4>
+
+<!-- Button Displayer -->
+<div>
+    <tr *ngFor = "let animal of lis">
+        <a routerLink={{currentSpecies}}>
+            <button mat-raised-button (click) = "clickGetSpecies(animal)"> 
+                {{animal}}
+            </button>
+        </a>
+    </tr>
+</div>
