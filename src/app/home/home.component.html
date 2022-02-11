@@ -1,6 +1,6 @@
 <!-- Introduction -->
 <h2>
-    Welcome to Animal Detail Dectector App
+    Welcome to ACME Animal Farm App
 </h2>
 
 <!-- Instructions -->
@@ -10,7 +10,7 @@
 
 <!-- Button Displayer -->
 <div>
-    <tr *ngFor = "let animal of lis">
+    <tr *ngFor = "let animal of animals">
         <a routerLink={{currentSpecies}}>
             <button mat-raised-button (click) = "clickGetSpecies(animal)"> 
                 {{animal}}

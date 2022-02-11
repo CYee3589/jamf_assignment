@@ -10,8 +10,8 @@ import { Component, OnInit } from '@angular/core';
 
 export class HomeComponent implements OnInit {
 
-  li: any;
-  lis=[];
+  temp: any;
+  animals=[];
   currentSpecies='';
 
   constructor(private httpClient: HttpClient) { }
@@ -20,17 +20,18 @@ export class HomeComponent implements OnInit {
     this.getAnimal();
   }
 
+  // Gets animal upon button click
   clickGetSpecies(_animal: string){
     this.currentSpecies = _animal;
   }
 
+  // Fetches list of animals from the web service 
   getAnimal(){
-    // For getting
     this.httpClient.get('https://mcxlmpfy3k.execute-api.us-east-1.amazonaws.com/dev/animals').subscribe(
       response => {
         console.log(response);
-        this.li = response;
-        this.lis = this.li.animals;
+        this.temp = response;
+        this.animals = this.temp.animals;
       }
     );
   }
