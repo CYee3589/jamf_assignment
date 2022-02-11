@@ -15,8 +15,7 @@ I have learned Python in High School and in a course here at Lowell, but have no
 I’m not familiar with this Javascript Framework, but I recognize that this is the ideal language for building this app by consuming web services. I saw the 2 endpoints as being simple enough that I could learn some basic Angular and use the tutorial demo code to develop this app.
 #### App Development with Angular
 With Angular, I chose to use Visual Studio Code as my IDE. My community edition version of IntelliJ doesn’t support Angular, so this was the next best choice.
-
-
+  
 ## How to Execute Code
 #### Software Requirements
 ###### NodeJS 
@@ -46,11 +45,10 @@ Open a browser (e.g., Google Chrome) and enter this URL: http://localhost:4200/
 Please install the following Plug-In / Extension on Chrome: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en 
 
 The home page shows the list of animals on the Acme Animal Farm.  
-![App's Home Page](/assets/images/HomePage.png)
+![App's Home Page](assets/images/HomePage.png)
 The detail page shows the list of details from “horse”
-![App's Detail Page](/assets/images/DetailPage.png)
-
-
+![App's Detail Page](assets/images/DetailPage.png)
+  
 ## Future To-Dos
-In the event where the API’s fetches nothing, I would like a custom page that shows that no animals or details were found
+In the event where the API’s fetches nothing, I would like a custom page that shows that no animals or details were found  
 I would like to better design the app’s design with picture, gifs, and a color scheme that fits with Jamf
