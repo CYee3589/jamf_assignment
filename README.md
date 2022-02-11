@@ -45,10 +45,10 @@ Open a browser (e.g., Google Chrome) and enter this URL: http://localhost:4200/
 Please install the following Plug-In / Extension on Chrome: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en 
 
 The home page shows the list of animals on the Acme Animal Farm.  
-![App's Home Page](assets/images/HomePage.png)
-The detail page shows the list of details from “horse”
-![App's Detail Page](assets/images/DetailPage.png)
-  
+![App's Home Page](src/assets/images/HomePage.png)  
+The detail page shows the list of details from “horse”  
+![App's Detail Page](src/assets/images/DetailPage.png)  
+
 ## Future To-Dos
 In the event where the API’s fetches nothing, I would like a custom page that shows that no animals or details were found  
 I would like to better design the app’s design with picture, gifs, and a color scheme that fits with Jamf
