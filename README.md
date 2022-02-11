@@ -6,13 +6,13 @@ In the ACME Animal Farm app, you will be greeted to the app’s home page. In th
 ## Design and Technology Choice
 #### Language Choice
 ###### Java
-    I'm comfortable with the language. If I chose it, it would be command line interaction as that is what I have knowledge of.  Alternatively, I could learn Java Web Servlets and learn how to deploy on Tomcat.
+I'm comfortable with the language. If I chose it, it would be command line interaction as that is what I have knowledge of.  Alternatively, I could learn Java Web Servlets and learn how to deploy on Tomcat.
 ###### Swift
-    My primary PC is a MacBook Pro and I have 3-years of C/C++ programming at UMass Lowell, but I do not have experience with this language.
+My primary PC is a MacBook Pro and I have 3-years of C/C++ programming at UMass Lowell, but I do not have experience with this language.
 ###### Python
-    I have learned Python in High School and in a course here at Lowell, but have not done any web or GUI programming in the language.
+I have learned Python in High School and in a course here at Lowell, but have not done any web or GUI programming in the language.
 ###### Angular
-    I’m not familiar with this Javascript Framework, but I recognize that this is the ideal language for building this app by consuming web services. I saw the 2 endpoints as being simple enough that I could learn some basic Angular and use the tutorial demo code to develop this app.
+I’m not familiar with this Javascript Framework, but I recognize that this is the ideal language for building this app by consuming web services. I saw the 2 endpoints as being simple enough that I could learn some basic Angular and use the tutorial demo code to develop this app.
 #### App Development with Angular
 With Angular, I chose to use Visual Studio Code as my IDE. My community edition version of IntelliJ doesn’t support Angular, so this was the next best choice.
 
@@ -20,17 +20,17 @@ With Angular, I chose to use Visual Studio Code as my IDE. My community edition 
 ## How to Execute Code
 #### Software Requirements
 ###### NodeJS 
-    Command to check version: *node -v* (Works for both Mac and Windows)
+Command to check version: *node -v* (Works for both Mac and Windows)
 ###### Angular CLI
-    Command to check version: *ng -v* (Works for both Mac and Windows)
+Command to check version: *ng -v* (Works for both Mac and Windows)
 ###### NPM
-    Command to check version: *npm -v* (Works for both Mac and Windows)
+Command to check version: *npm -v* (Works for both Mac and Windows)
 #### Installation Instructions
 ###### NodeJS
 Link to download area: https://nodejs.org/en/download/ 
 Link to installation instructions
-    On Mac: https://nodesource.com/blog/installing-nodejs-tutorial-mac-os-x/ 
-    On Windows: https://phoenixnap.com/kb/install-node-js-npm-on-windows 
+On Mac: https://nodesource.com/blog/installing-nodejs-tutorial-mac-os-x/ 
+On Windows: https://phoenixnap.com/kb/install-node-js-npm-on-windows 
 ###### Angular CLI and NPM
 Link to installation instructions: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm 
 
@@ -46,9 +46,9 @@ Open a browser (e.g., Google Chrome) and enter this URL: http://localhost:4200/
 Please install the following Plug-In / Extension on Chrome: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en 
 
 The home page shows the list of animals on the Acme Animal Farm.  
-    ![App's Home Page](/assets/images/HomePage.png)
+![App's Home Page](/assets/images/HomePage.png)
 The detail page shows the list of details from “horse”
-    ![App's Detail Page](/assets/images/DetailPage.png)
+![App's Detail Page](/assets/images/DetailPage.png)
 
 
 ## Future To-Dos
