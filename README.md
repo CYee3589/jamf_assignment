@@ -27,22 +27,22 @@ Command to check version: *ng -v* (Works for both Mac and Windows)
 Command to check version: *npm -v* (Works for both Mac and Windows)
 #### Installation Instructions
 ###### NodeJS
-Link to download area: https://nodejs.org/en/download/ 
-Link to installation instructions
-On Mac: https://nodesource.com/blog/installing-nodejs-tutorial-mac-os-x/ 
-On Windows: https://phoenixnap.com/kb/install-node-js-npm-on-windows 
+Link to download area: https://nodejs.org/en/download/  
+Link to installation instructions  
+On Mac: https://nodesource.com/blog/installing-nodejs-tutorial-mac-os-x/  
+On Windows: https://phoenixnap.com/kb/install-node-js-npm-on-windows  
 ###### Angular CLI and NPM
 Link to installation instructions: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm 
 
 #### Running the App
 Clone this project to your local system.  
 
-Open a console to the root directory of this project.
+Open a console to the root directory of this project.  
 
-Issue the following command: *ng serve*
+Issue the following command: *ng serve*  
 
-Open a browser (e.g., Google Chrome) and enter this URL: http://localhost:4200/
-**Note:**  Running this app may result in the following error message: *CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.*
+Open a browser (e.g., Google Chrome) and enter this URL: http://localhost:4200/  
+**Note:**  Running this app may result in the following error message: *CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.*  
 Please install the following Plug-In / Extension on Chrome: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en 
 
 The home page shows the list of animals on the Acme Animal Farm.  
